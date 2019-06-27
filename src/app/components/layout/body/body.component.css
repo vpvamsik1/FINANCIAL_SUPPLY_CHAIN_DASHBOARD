@@ -1,0 +1,29 @@
+#tSec{
+
+    background-color: #155595;
+    height: 500px;
+
+}
+#btn5, #btn6, #btn9{
+    color: blue
+}
+p{
+    /* margin-top: 5px; */
+    color: white;
+    padding: 10px 50px;
+    font-size: 350%;
+    margin-bottom: 45px;
+}
+#bSec{
+    height: 220px;
+    background-color: #DBE8F1;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+img{
+    position: relative;
+    left: 5px;
+    float: right;
+  
+}
+

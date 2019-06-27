@@ -1,0 +1,169 @@
+<div class="table">
+    <button type="button" class="btn btn-success" id="search" (click)="alert()">Search</button><input type="text">
+  <p id="tHeading">Customer Projected Inflow</p>
+<table class="table-striped">
+  <thead>
+    <tr>
+      <th scope="col" class="br" id="view">View</th>
+      <th scope="col" class="br">Total</th>
+      <th scope="col" class="br">Current</th>
+      <th scope="col" class="br">30 days</th>
+      <th scope="col" class="br">60 days</th>
+      <th scope="col" class="br">90 days</th>
+      <th scope="col" class="br">120+ days</th>
+      <th scope="col" class="br" id="currency">Currency</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row" class="tal red"><i class="far fa-plus-square plusSign"></i> Beginning AR</th>
+      <td>12,000.00</td>
+      <td>5,000.00</td>
+      <td>2,000.00</td>
+      <td>1,000.00</td>
+      <td>1,000.00</td>
+      <td>3,000.00</td>
+      <td class="tal">USD</td>
+
+    </tr>
+    <tr>
+      <th scope="row" class="tal red"><i class="far fa-plus-square plusSign" ></i> New Billing</th>
+      <td>6,000.00</td>
+      <td>500.00</td>
+      <td>1,000.00</td>
+      <td>3,000.00</td>
+      <td>1,000.00</td>
+      <td>500.00</td>
+      <td class="tal">USD</td>
+
+    </tr>
+
+    <tr>
+      <th scope="row" class="tal red"><i class="far fa-plus-square plusSign" ></i> Payments (-ve)</th>
+      <td>4,000.00-</td>
+      <td></td>
+      <td>1,000.00</td>
+      <td>1,000.00</td>
+      <td></td>
+      <td>2,000.00-</td>
+      <td class="tal">USD</td>
+
+    </tr>
+
+    <tr>
+      <th scope="row" class="tal red"><i class="far fa-plus-square plusSign" ></i> Credits Issued ( -ve)</th>
+      <td>5,000.00-</td>
+      <td></td>
+      <td>3,000.00</td>
+      <td>1,000.00</td>
+      <td></td>
+      <td>1,000.00-</td>
+      <td class="tal">USD</td>
+
+    </tr>
+
+    <tr>
+      <th scope="row" class="tal red"><i class="far fa-plus-square plusSign" ></i> Other Clearings ( -ve)</th>
+      <td>2,000.00-</td>
+      <td></td>
+      <td>1,000.00</td>
+      <td>1,000.00</td>
+      <td></td>
+      <td></td>
+      <td class="tal">USD</td>
+
+    </tr>
+
+    <tr>
+      <th scope="row" class="tal red"><i class="far fa-plus-square plusSign" (click)="toggleCollapsed()"></i> Ending AR
+        <div *ngIf="!isCollapsed" class="collapsed">
+          <i class="far fa-plus-square plusSign" id="tal" (click)="toggleCollapsed2()"></i> Big Box Accounts
+          <div *ngIf="!isCollapsed2" id="tal2">879878</div>
+          <br><i class="far fa-plus-square plusSign" id="tal3" ></i> Dealers
+        </div>
+      </th>
+      <td>7,000.00
+        <div *ngIf="!isCollapsed" class="collapsed" id="td1">
+           <br>5,000.00
+          <div *ngIf="!isCollapsed2">5,000.00</div>
+          <br> 2,000.00
+        </div>
+      </td>
+      <td>5,500.00
+        <div *ngIf="!isCollapsed" class="collapsed" id="td2">
+            <br>4,000.00
+            <div *ngIf="!isCollapsed2">4,000.00</div>
+            <br> 1,500.00
+        </div>
+      </td>
+      <td>2,000.00
+        <div *ngIf="!isCollapsed" class="collapsed" id="td3">
+            <br>1,000.00
+            <div *ngIf="!isCollapsed2">1,000.00</div>
+            <br> 1,000.00
+        </div>
+      </td>
+      <td>1,000.00
+        <div *ngIf="!isCollapsed" class="collapsed" id="td4">
+            <br>500.00
+            <div *ngIf="!isCollapsed2">500.00</div>
+            <br> 500.00
+        </div>
+      </td>
+      <td>2,000.00
+        <div *ngIf="!isCollapsed" class="collapsed" id="td5">
+            <br>0.00
+            <div *ngIf="!isCollapsed2">0.00</div>
+            <br> 2,000.00
+        </div>
+      </td>
+      <td>500.00
+        <div *ngIf="!isCollapsed" class="collapsed" id="td5">
+            <br>500.00
+            <div *ngIf="!isCollapsed2">500.00</div>
+            <br> 
+        </div>
+      </td>
+      <td class="tal">USD</td>
+
+    </tr>
+
+    <tr>
+      <th scope="row" class="tal red"> Unapplied Cash</th>
+      <td>1,500.00</td>
+      <td></td>
+      <td></td>
+      <td>1,500.00</td>
+      <td></td>
+      <td></td>
+      <td class="tal">USD</td>
+
+    </tr>
+
+    <tr>
+      <th scope="row" class="tal red"> Unapplied Credit Memos</th>
+      <td>4,000.00</td>
+      <td></td>
+      <td>3,000.00</td>
+      <td></td>
+      <td></td>
+      <td>1,000.00</td>
+      <td class="tal">USD</td>
+
+    </tr>
+
+    <tr>
+      <th scope="row" class="tal red"> In dispute $$</th>
+      <td>2,000.00</td>
+      <td></td>
+      <td></td>
+      <td>1,000.00</td>
+      <td></td>
+      <td>1,000.00</td>
+      <td class="tal">USD</td>
+
+    </tr>
+  </tbody>
+</table>
+</div>

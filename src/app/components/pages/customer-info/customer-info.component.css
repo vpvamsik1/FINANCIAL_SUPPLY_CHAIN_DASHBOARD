@@ -1,0 +1,346 @@
+#P1{
+    border: 2px solid black;
+    border-bottom: none;
+    border-bottom: 1px solid grey;
+}
+p{
+    width: 100%;
+    
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: white;
+
+    border-bottom: 1px solid grey;
+    
+
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.bc{
+    /* margin-top: 15px; */
+    /* position: relative;
+    bottom: 10px; */
+}
+#inputPassword, #inputPassword15, #inputPassword17, #inputPassword16, #inputPassword18{
+    float: right;
+    width: 247px;
+}
+.form-group1{
+    width: 1022px;
+}
+.form-group3{
+    width: 800px;
+}
+.form-group4{
+    width: 815px;
+}
+.form-group5{
+    width: 834px;
+}
+.form-group6{
+    width: 1114px;
+}
+.form-group7{
+    width: 1030px;
+}
+.fRight{
+    float: right;
+}
+#exampleFormControlInput1{
+    width: 247px;
+}
+.inputPassword23{
+    width: 180px;
+    /* position: relative;
+    right: 15px; */
+}
+#lCurrent{
+    position: relative;
+    bottom: 5px;
+}
+#dWidth{
+    width: 0px;
+}
+#l31-60{
+    position: relative;
+    bottom: 5px;
+}
+#l61-90{
+    position: relative;
+    bottom: 5px;
+}
+#l91-120{
+    position: relative;
+    bottom: 5px;
+}
+#lO120{
+    position: relative;
+    top: 0px;
+}
+#lOpenDeductions{
+    position: relative;
+    bottom: 5px;
+}
+#label1{
+    /* width: 150%; */
+    margin-right: 0px;
+}
+#inputPassword19 {
+    width: 247px;
+}
+.inputPassword20{
+    width: 247px;
+}
+#label2{
+    /* width: 250%; */
+    /* width: 500px; */
+}
+#F2Start{
+    clear: both;
+}
+#ar, #eb, #obr, #id, #id2{
+    margin-bottom: 35px;
+}
+#autoSizingCheck{
+    width: 20px;
+}
+.form-check-label{
+    font-size: 17px;
+    position: relative;
+    bottom: 4px;
+    left: 25px;
+    margin-bottom: 10px;
+}
+.mUp2{
+    position: relative;
+    bottom: 15px;
+}
+.mUp1{
+    position: relative;
+    bottom: 5px;
+}
+.mUp3{
+    position: relative;
+    bottom: 15px;
+}
+#F7{
+    position: relative;
+    bottom: 20px;
+}
+#fgr1{
+    /* width: 30%; */
+}
+#l1, #l2{
+    /* margin-right: 5px; */
+    position: relative;
+    right: 55px;
+}
+.mUp{
+    position: relative;
+    bottom: 10px;
+}
+#fgr1, #fgr2{
+    position: relative;
+    bottom: 20px; 
+}
+#fgr2{
+    /* position: relative;
+    top: 25px; */
+}
+#cla{
+    position: relative;
+    top: 13px;
+}
+#lOpenAR{
+    position: relative;
+    top: 10px;
+}
+.inputPassword25{
+    width: 400px;
+}
+#inputEmail4,  #inputEmail5{
+    position: relative;
+    right: 80px;
+}
+#tb{
+    position: relative;
+    bottom: 10px;
+}
+/* #inputEmail6, #inputEmail7{
+    position: relative;
+    top: 50px;
+} */
+.inputPassword7{
+    margin-top: 20px;
+}
+#inputPassword8{
+    margin-top: 20px;
+}
+#inputPassword9{
+    margin-top: 10px;
+}
+#inputPassword10{
+    margin-top: 15px;
+}
+#inputPassword11{
+    margin-top: 10px;
+}
+#inputPassword12, #inputPassword13, #inputPassword14{
+    margin-top: 10px;
+}
+#inputEmail6{
+    margin-top: 20px;
+}
+#l1{
+    /* position: relative;
+    right: 10px; */
+}
+#F1{
+    width: 33.3333%;
+    display: inline-block;
+    /* padding-left: 65px; */
+    position: relative;
+    bottom: 0px;
+    padding-bottom: 54px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    /* border-right: 2px solid black; */
+}
+#inputEmail1{
+    margin-left: 7px;
+}
+
+/* #chdDiv{
+    margin-top: 25px;
+} */
+.mLeft{
+    margin-left: 7px;
+}
+#chdLabel{
+    position: relative;
+    bottom: 10px;
+    width: 100px;
+}
+#F1{
+    /* border: 2px solid black; */
+}
+/* #countryDiv{
+    margin-bottom: 20px;
+} */
+#F2{
+    width: 33.3333%;
+    /* float: right; */
+    display: inline-block;
+    padding-right: 0px;
+    padding-bottom: 58px;
+    border-bottom: 2px solid black;
+    margin-bottom: 80px;
+    /* display: none; */
+    /* margin-bottom: 10px; */
+}
+.dNone{
+    /* display: none; */
+}
+#currencyDiv{
+    padding-bottom: 12px;
+    margin-bottom: 0px;
+}
+#F2.form-control{
+    margin-right: 0px;
+}
+#F3{
+    width: 33.3333%;
+    float: right;
+    padding-right: 50px;
+    /* padding-left: 60px; */
+    padding-top: 95px;
+    padding-bottom: 195px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    /* display: none; */
+}
+#F4{
+    width: 30%;
+    position: relative;
+    bottom: 70px;
+    padding-bottom: 35px;
+    clear: both;
+    padding-right: 20px;
+    /* padding-left: 0px; */
+    display: inline-block;
+    border: 2px solid black;
+}
+/* #inputPassword20{
+    width: 10px;
+} */
+#F5{
+    width: 30%;
+    float: right;
+    position: relative;
+    bottom: 65px;
+    padding-right: 20px;
+    padding-bottom: 240px;
+    border: 2px solid black;
+}
+#F6{
+    width: 30%;
+    /* float: right; */
+    position: relative;
+    bottom: 700px;
+    margin-right: 50px;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    border: 2px solid black;
+}
+#F8{
+    clear: both;
+    width: 48%;
+    display: inline-block;
+    position: relative;
+    bottom: 685px;
+    padding-right: 20px;
+    border: 2px solid black;
+}
+#F9{
+    width: 48%;
+    float: right;
+    position: relative;
+    bottom: 685px;
+    padding-right: 20px;
+    border: 2px solid black;
+}
+.form-control2{
+    /* position: relative;
+    left: 30px; */
+}
+table{
+    width: 80%;
+    /* border: 1px solid blue; */
+}
+form{
+    background-color: white;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    /* padding-right: 25px; */
+    padding-top: 20px;
+}
+input{
+    width: 75%;
+}
+#inputPassword21, #inputPassword22{
+    width: 200px;
+}
+#CI{
+    /* width: 40%; */
+    padding-left: 15px;
+    /* background-color: #C1D7EC; */
+    padding-right: 15px;
+    overflow: hidden;
+}

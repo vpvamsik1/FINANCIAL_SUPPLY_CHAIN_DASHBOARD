@@ -1,0 +1,140 @@
+#cInfo{
+    background-color: white;
+    padding: 10px 15px;
+    border: 2px solid black;
+}
+#cInfo2{
+    /* width: 30%; */
+    /* display: inline-block; */
+    display: flex;
+}
+
+
+#F1{
+    width: 36%;
+    display: inline-block;
+    /* float: left; */
+}
+#F2{
+    /* width: 36%; */
+    width: 36%;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+/* #F4{
+    float: left;
+}
+#F5{
+    clear: both;
+} */
+
+#F4, #F5, #F6{
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px 15px;
+    width: 31%;
+    flex-grow: 1;
+    border: 2px solid black;
+    /* float: right; */
+}
+#F5{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#F7, #F8{
+    background-color: white;
+    width: 48%;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: 2px solid black;
+}
+#F7{
+    display: inline-block;
+}
+#F8{
+    float: right;
+}
+#F4, #F5, #F6{
+    /* display: inline-block; */
+}
+#F4{
+    /* display: inline-block; */
+    /* margin-right: 3%; */
+}
+#F5{
+    /* text-align: center; */
+    /* margin-right: 3%; */
+    /* display: inline-block; */
+    /* margin: 0 auto; */
+}
+#F6{
+    /* float: right; */
+    /* display: none; */
+    padding-bottom: 10%;
+}
+.Ext1{
+    background-color: white;
+    border: none;
+    color: white;
+}
+#lOnAccPay{
+    padding-right: 0px;
+}
+#F3{
+    width: 14%;
+    display: inline-block;
+    padding-left: 0px;
+    /* padding-right: 25px; */
+    /* display: none; */
+    /* float: left; */
+    /* margin-bottom: 50px; */
+    /* padding-right: 50px; */
+}
+.cWidth{
+    width: 36%;
+    /* float: right; */
+}
+.cWidth2{
+    width: 20%;
+}
+#exampleFormControlInput1{
+    width: 32%;
+    margin: 0px;
+    /* float: right; */
+}.form-group8{
+    width: 200%;
+}
+.form-group9{
+    width: 200%;
+}
+.form-group10{
+    width: 300%;
+}
+.form-group11{
+    width: 304%;
+}
+.form-group12{
+    width: 254%;
+}
+.cWidth3{
+    width: 28%;
+}
+.sWidth{
+    width: 74%;
+    float: right;
+}
+.sWidth2{
+    width: 30%;
+    float: right;
+}
+#label1{
+    /* width: 200%; */
+}
+.form-group7{
+    width: 235%;
+}
+#C1, #ar, #eb, #obr, #id, #id2{
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+}
